@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# =========================
+# Project private files
+# =========================
+
+# datasets
+data/
+dataset/
+datasets/
+
+# model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+weights/
+
+# experiment outputs
+runs/
+logs/
+outputs/
+results/raw/
+results/private/
+
+# thesis and documents
+*.docx
+*.pdf
+thesis/
+paper/
+proposal/
+
+# private config and API keys
+.env
+config_private.py
+secret.py
+api_key.txt
+
+# local IDE files
+.vscode/
+.idea/
+
+# system files
+.DS_Store
+Thumbs.db
